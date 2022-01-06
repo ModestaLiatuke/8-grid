@@ -1,13 +1,63 @@
-body {
+body,
+body* {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 600px 1fr;
     gap: 20px;
+    justify-items: center;
+    align-items: center;
+    width: 1000px;
 }
-div {
-    padding: 10px;
-    border: 1px solid red;
+main {
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px; */
 }
-div:first-child {
-    background-color: yellow;
-    grid-column: span 2;
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.nav {
+    border: 1px solid black;
+}
+.socials {
+    border: 1px solid black;
+}
+.hero {
+    border: 1px solid black;
+}
+.services {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.services > .one-service {
+    border: 1px solid black;
+    margin: 10px 10px;
+}
+.freelance {
+    border: 1px solid black;
+}
+.testimonials {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.testimonials > .one-testimonial {
+    border: 1px solid black;
+    margin: 10px 10px;
+}
+.footer {
+    border: 1px solid black;
+}
+@media;
