@@ -2,7 +2,7 @@
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! 
 
-Site published at: https://modestaliatuke.github.io/9-cake/
+Site published at: https://modestaliatuke.github.io/8-grid/
 
 ## Project features
 
